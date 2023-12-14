@@ -18,6 +18,8 @@ public class Compte {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(name = "code_pin")
+    private String codePin;
 
     @Column(name = "Solde_Compte", nullable = false)
     private Long solde; // tinyint(1) maps to byte in Java

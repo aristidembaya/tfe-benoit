@@ -30,9 +30,6 @@ public class Client {
     @Column(name = "Numero_Client")
     private String numeroClient;
 
-    @Column(name = "code_pin")
-    private String codePin;
-
     @Column(name = "created_at")
     @CreationTimestamp
     private Date createdAt;
